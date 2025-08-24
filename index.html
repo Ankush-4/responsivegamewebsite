@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Game Space</title>
+  </head>
+  <body>
+    <header
+      class="flex flex-col justify-between items-center px-4 h-auto w-full bg-green-500 fixed md:flex-row md:h-[50px] pb-2"
+    >
+      <div class="font-bold text-lg shadow-yellow-400 md:text-2xl">
+        Game Space
+      </div>
+      <nav class="font-bold text-lg flex gap-4">
+        <a href="#Home">Home</a>
+        <a href="#Games">Games</a>
+        <a href="#Help">Help</a>
+        <a href="#Loign">Login</a>
+        <button
+          onclick="setTheme()"
+          class="bg-black text-green-500 hover:scale-110 hover:border-orange-500 font-bold border rounded-xl px-2 "
+        >
+          Theme
+        </button>
+      </nav>
+    </header>
+<main id="Home" class="h-auto bg-black flex-col item-center justify-center pt-20 px-10 w-full" >
+    <div class="w-[400px] overflow-hidden relative rounded-xl shadow-l mx-auto md:w-[700px] ">
+    <!-- Slider Container -->
+    <div id="slider" class="flex transition-transform duration-700 ease-in-out">
+      <img src="https://ts1.mm.bing.net/th?id=OIP.x2QCGE8Vx50S1KP7raLTwAHaEK&pid=15.1" class="w-[400px] flex-shrink-0 md:w-[700px]" alt="Image 1">
+      <img src="https://socialnewsdaily.com/wp-content/uploads/2017/01/2977570-tribes-1024x576.jpg" class="w-[400px] flex-shrink-0 md:w-[700px]" alt="Image 2">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.8_j0UtBKdTe3ZEdhsDW3kQHaEK?r=0&pid=ImgDet&w=178&h=100&c=7&dpr=1.5&o=7&rm=3" class="w-[400px] flex-shrink-0 md:w-[700px]" alt="Image 3">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.Tf7f_Kru97uuJusxOhgr8wHaEK?r=0&pid=ImgDet&w=178&h=100&c=7&dpr=1.5&o=7&rm=3" class="w-[400px] flex-shrink-0 md:w-[700px]" alt="Image 4">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.arv7YZnyUgDgMULSLZgvswHaEP?r=0&pid=ImgDet&w=178&h=101&c=7&dpr=1.5&o=7&rm=3" class="w-[400px] flex-shrink-0 md:w-[700px]" alt="Image 5">
+    </div>
+  </div>
+
+  <h1 class="bg-orange-500 text-center py-2 border border-orange-500 p-4 rounded lg:w-[300px] mx-auto mt-4 ">Come Play Togather</h1>
+
+</main>
+
+    <section id="Games" class="bg-black h-auto pt-15 w-full md:h-[100vh]">
+      <div>
+        <h1
+          class="text-green-500 py-4 text-center font-bold text-2xl underline"
+        >
+          Welcome to the Game space
+        </h1>
+
+        <p class="text-green-500 text-center px-10">
+          Hello this this is the ultimate game space where you can play various
+          games like - battle royal, multiplayer games, single player games, and
+          you can also get horror games
+        </p>
+        <div class=" flex flex-wrap justify-center gap-4 item-center pt-4 transition duration-300 ease-in ">
+          <div class="flex flex-col gap-2 bg-orange-500 h-[350px] w-[250px] border rounded-lg hover:scale-105 transition ease-in ">
+            <h1 class="text-black py-2 text-center font-bold text-2xl">Dead Trigger</h1>
+            <img src="https://thaka.bing.com/th?q=Dead+Trigger+Mobile+Game&w=120&h=120&c=1&rs=1&qlt=70&r=0&o=7&cb=1&dpr=1.5&pid=InlineBlock&rm=3&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt=""
+            class="rounded p-2" />
+            <button class="bg-black text-green-500 font-bold border rounded-xl px-2 w-[15vh] mx-auto">Play Now</button>
+          </div>
+          <div class="flex flex-col gap-2 bg-green-500 h-[350px] w-[250px] border rounded-lg hover:scale-105 transition ease-in">
+            <h1 class="text-black py-2 text-center font-bold text-2xl">Dead Trigger</h1>
+            <img src="https://thaka.bing.com/th?q=Dead+Trigger+Mobile+Game&w=120&h=120&c=1&rs=1&qlt=70&r=0&o=7&cb=1&dpr=1.5&pid=InlineBlock&rm=3&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt=""
+            class="rounded p-2" />
+            <button class="bg-black text-green-500 font-bold border rounded-xl px-2 w-[15vh] mx-auto">Play Now</button>
+          </div>
+          <div class="flex flex-col gap-2 bg-orange-500 h-[350px] w-[250px] border rounded-lg hover:scale-105 transition ease-in">
+            <h1 class="text-black py-2 text-center font-bold text-2xl">Dead Trigger</h1>
+            <img src="https://thaka.bing.com/th?q=Dead+Trigger+Mobile+Game&w=120&h=120&c=1&rs=1&qlt=70&r=0&o=7&cb=1&dpr=1.5&pid=InlineBlock&rm=3&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="" 
+            class=" rounded p-2"/>
+            <button class="bg-black text-green-500 font-bold border rounded-xl px-2 w-[15vh] mx-auto">Play Now</button>
+          </div>
+          <div class="flex flex-col gap-2 bg-green-500 h-[350px] w-[250px] border rounded-lg hover:scale-105 transition ease-in">
+            <h1 class="text-black capitalize py-2 text-center font-bold text-2xl">Dead Trigger</h1>
+            <img src="https://thaka.bing.com/th?q=Dead+Trigger+Mobile+Game&w=120&h=120&c=1&rs=1&qlt=70&r=0&o=7&cb=1&dpr=1.5&pid=InlineBlock&rm=3&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt=""
+            class="rounded p-2" />
+            <button class="bg-black text-green-500 font-bold border rounded-xl px-2 w-[15vh] mx-auto">Play Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
